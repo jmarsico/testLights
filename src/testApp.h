@@ -29,18 +29,11 @@ public:
 	float cellSizeFl;
 	int numPixels;
 
-	int	cameraWidth;
-	int	cameraHeight;
-
-	float displayCoeff;
-    
     float noiseSpeedX, noiseSpeedY, noiseAmp, time, timeInc;
 
 	
 	int numBoards;
 
-	ofVideoGrabber videoGrabber;
-	//ofTexture pixelTexture;
 	PCA9685* pca; //initialize the class with number of boards
 
 
